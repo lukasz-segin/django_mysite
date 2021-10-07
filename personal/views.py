@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 
 def index(request):
-    print("dklsjfskdlfjsdklfjsdf")
+    print("dklsjfskdlfjsdklfjsdf") # sdkfjsdlfjsdlfkjdflkj
     print("dklsjfskdlfjsdklfjsdf")
     print("dklsjfskdlfjsdklfjsdf")
     print("third print")
