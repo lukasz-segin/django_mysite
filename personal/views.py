@@ -5,6 +5,7 @@ def index(request):
     print("dklsjfskdlfjsdklfjsdf")
     print("dklsjfskdlfjsdklfjsdf")
     print("dklsjfskdlfjsdklfjsdf")
+    print("third print")
     return render(request, 'personal/home.html')
 
 def contact(request):
