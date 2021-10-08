@@ -3,9 +3,6 @@ from django.shortcuts import render
 
 def index(request):
     print("dklsjfskdlfjsdklfjsdf")  # sdkfjsdlfjsdlfkjdflkj
-    print("dklsjfskdlfjsdklfjsdf")
-    print("dklsjfskdlfjsdklfjsdf")  # dskfjsdlkfj
-    print("third print")
     return render(request, "personal/home.html")
 
 
