@@ -1,8 +1,7 @@
 from django.shortcuts import render
 
 
-def index(request):
-    print("dklsjfskdlfjsdklfjsdf")  # sdkfjsdlfjsdlfkjdflkj
+def index(request):  # test comment
     return render(request, "personal/home.html")
 
 
