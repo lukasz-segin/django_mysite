@@ -9,6 +9,8 @@ def contact(request):
     context = {
         "content": ["If you would like to contact me", "abc@o2.pl"],
         "header2": "The H2 header",
+        "message1": "This is Message 1",
+        "message2": "This is Message 2",
     }
     return render(
         request,
