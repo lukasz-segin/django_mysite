@@ -1,9 +1,6 @@
-{% extends "personal/header.html" %}
+{% extends "personal/header.html" %} {% block content %}
 
-{% block content %}
-
-    {% for c in content %}
-        <p>{{c}}</p>
-    {% endfor %}
-
-{% endblock %}
+<h2>{{header2}}</h2>
+{% for c in content %}
+<p>{{c}}</p>
+{% endfor %} {% endblock %}

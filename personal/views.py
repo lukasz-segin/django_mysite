@@ -6,8 +6,12 @@ def index(request):  # test comment
 
 
 def contact(request):
+    context = {
+        "content": ["If you would like to contact me", "abc@o2.pl"],
+        "header2": "The H2 header",
+    }
     return render(
         request,
         "personal/basic.html",
-        {"content": ["If you would like to contact me", "abc@o2.pl"]},
+        context,
     )
